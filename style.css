@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 10px;
+    font-family: 'Open Sans, sans-serif';
+
+
+}
+
+.lyrics-text-header h3 {
+    font-size: 22px;
+    margin-bottom: 0;
+    font-weight: 700;
+   
+}
+
+.lyrics-text-header p {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+
+
+.lyrics-orginal p {
+    font-size: 16px;
+    line-height: 24px;
+    
+   
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
